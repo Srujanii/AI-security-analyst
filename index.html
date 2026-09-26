@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SentinelAI - AI Security Analyst</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= SIDEBAR ================= -->
+
+<aside class="sidebar">
+
+    <div class="logo">
+        <div class="logo-icon">🛡️</div>
+        <div>
+            <h2>SentinelAI</h2>
+            <span>AI Security Analyst</span>
+        </div>
+    </div>
+
+    <nav class="navigation">
+
+        <a href="#dashboard" class="nav-link active">
+            <span>📊</span>
+            Dashboard
+        </a>
+
+        <a href="#analyzer" class="nav-link">
+            <span>🔍</span>
+            Alert Analyzer
+        </a>
+
+        <a href="#models" class="nav-link">
+            <span>🤖</span>
+            ML Models
+        </a>
+
+        <a href="#insights" class="nav-link">
+            <span>💡</span>
+            AI Insights
+        </a>
+
+        <a href="#concept" class="nav-link">
+            <span>📘</span>
+            Concept
+        </a>
+
+        <a href="#how-it-works" class="nav-link">
+            <span>⚙️</span>
+            How It Works
+        </a>
+
+        <a href="#project" class="nav-link">
+            <span>👥</span>
+            Project Details
+        </a>
+
+    </nav>
+
+    <div class="sidebar-footer">
+        <div class="status-dot"></div>
+        <span>System Online</span>
+    </div>
+
+</aside>
+
+
+<!-- ================= MAIN CONTENT ================= -->
+
+<main class="main-content">
+
+
+<!-- ================= DASHBOARD ================= -->
+
+<section id="dashboard" class="page-section">
+
+    <div class="top-bar">
+
+        <div>
+            <p class="small-label">SECURITY OPERATIONS CENTER</p>
+            <h1>Security Dashboard</h1>
+            <p class="subtitle">
+                AI-powered security alert monitoring and analysis
+            </p>
+        </div>
+
+        <div class="system-status">
+            <span class="status-dot"></span>
+            AI Engine Active
+        </div>
+
+    </div>
+
+
+    <!-- HERO -->
+
+    <div class="hero-card">
+
+        <div class="hero-content">
+
+            <span class="badge">AI-POWERED SECURITY</span>
+
+            <h2>
+                AI That Reads Security Alerts
+                <span>Like a Human</span>
+            </h2>
+
+            <p>
+                SentinelAI analyzes security alerts, identifies threats,
+                predicts their severity and explains what is happening
+                in simple human-readable language.
+            </p>
+
+            <a href="#analyzer" class="primary-button">
+                Analyze an Alert →
+            </a>
+
+        </div>
+
+        <div class="hero-visual">
+            <div class="shield">
+                🛡️
+            </div>
+
+            <div class="ai-circle">
+                AI
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- STATISTICS -->
+
+    <div class="stats-grid">
+
+        <div class="stat-card">
+            <div class="stat-icon blue">🚨</div>
+            <div>
+                <p>Total Alerts</p>
+                <h3>1,284</h3>
+                <span class="positive">↑ 12% this week</span>
+            </div>
+        </div>
+
+
+        <div class="stat-card">
+            <div class="stat-icon red">⚠️</div>
+            <div>
+                <p>Critical Threats</p>
+                <h3>42</h3>
+                <span class="negative">↑ 8% this week</span>
+            </div>
+        </div>
+
+
+        <div class="stat-card">
+            <div class="stat-icon yellow">🔍</div>
+            <div>
+                <p>Analyzed</p>
+                <h3>1,176</h3>
+                <span class="positive">91.6% processed</span>
+            </div>
+        </div>
+
+
+        <div class="stat-card">
+            <div class="stat-icon green">🎯</div>
+            <div>
+                <p>Model Accuracy</p>
+                <h3>94.8%</h3>
+                <span class="positive">↑ 2.1%</span>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- RECENT ALERTS -->
+
+    <div class="content-grid">
+
+        <div class="panel large-panel">
+
+            <div class="panel-header">
+
+                <div>
+                    <h3>Recent Security Alerts</h3>
+                    <p>Latest alerts detected by the system</p>
+                </div>
+
+                <button class="secondary-button">
+                    View All
+                </button>
+
+            </div>
+
+
+            <div class="alert-table">
+
+                <div class="table-row table-header">
+                    <span>Alert</span>
+                    <span>Source</span>
+                    <span>Severity</span>
+                    <span>Status</span>
+                </div>
+
+
+                <div class="table-row">
+
+                    <span>
+                        <strong>Multiple Failed Logins</strong>
+                        <small>Brute Force Attempt</small>
+                    </span>
+
+                    <span>192.168.1.24</span>
+
+                    <span class="severity critical">
+                        CRITICAL
+                    </span>
+
+                    <span class="status investigated">
+                        Investigated
+                    </span>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <span>
+                        <strong>Port Scanning Activity</strong>
+                        <small>Network Reconnaissance</small>
+                    </span>
+
+                    <span>10.0.0.52</span>
+
+                    <span class="severity high">
+                        HIGH
+                    </span>
+
+                    <span class="status investigating">
+                        Investigating
+                    </span>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <span>
+                        <strong>Suspicious File Detected</strong>
+                        <small>Possible Malware</small>
+                    </span>
+
+                    <span>192.168.1.18</span>
+
+                    <span class="severity critical">
+                        CRITICAL
+                    </span>
+
+                    <span class="status blocked">
+                        Blocked
+                    </span>
+
+                </div>
+
+
+                <div class="table-row">
+
+                    <span>
+                        <strong>Successful Login</strong>
+                        <small>Normal Authentication</small>
+                    </span>
+
+                    <span>192.168.1.10</span>
+
+                    <span class="severity low">
+                        LOW
+                    </span>
+
+                    <span class="status normal">
+                        Normal
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- THREAT DISTRIBUTION -->
+
+        <div class="panel">
+
+            <div class="panel-header">
+                <div>
+                    <h3>Threat Distribution</h3>
+                    <p>Current alert classification</p>
+                </div>
+            </div>
+
+            <div class="threat-chart">
+
+                <div class="chart-circle">
+                    <strong>1,284</strong>
+                    <span>Alerts</span>
+                </div>
+
+            </div>
+
+            <div class="legend">
+
+                <div>
+                    <span class="legend-dot critical-dot"></span>
+                    Critical
+                    <strong>42</strong>
+                </div>
+
+                <div>
+                    <span class="legend-dot high-dot"></span>
+                    High
+                    <strong>126</strong>
+                </div>
+
+                <div>
+                    <span class="legend-dot medium-dot"></span>
+                    Medium
+                    <strong>318</strong>
+                </div>
+
+                <div>
+                    <span class="legend-dot low-dot"></span>
+                    Low
+                    <strong>798</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ALERT ANALYZER ================= -->
+
+<section id="analyzer" class="page-section">
+
+    <div class="section-heading">
+
+        <span class="badge">AI ANALYSIS</span>
+
+        <h2>Security Alert Analyzer</h2>
+
+        <p>
+            Paste a security alert below and let SentinelAI analyze it.
+        </p>
+
+    </div>
+
+
+    <div class="analyzer-container">
+
+        <div class="panel analyzer-input">
+
+            <div class="panel-header">
+
+                <div>
+                    <h3>Alert Input</h3>
+                    <p>Enter a security log or alert message</p>
+                </div>
+
+            </div>
+
+
+            <textarea
+                id="alertInput"
+                placeholder="Example: Multiple failed login attempts detected from IP 192.168.1.24..."
+            ></textarea>
+
+
+            <div class="example-buttons">
+
+                <button onclick="loadExample('bruteforce')">
+                    Brute Force
+                </button>
+
+                <button onclick="loadExample('portscan')">
+                    Port Scan
+                </button>
+
+                <button onclick="loadExample('malware')">
+                    Malware
+                </button>
+
+                <button onclick="loadExample('normal')">
+                    Normal Login
+                </button>
+
+            </div>
+
+
+            <button
+                class="analyze-button"
+                onclick="analyzeAlert()"
+            >
+                🔍 Analyze Alert
+            </button>
+
+        </div>
+
+
+        <!-- ANALYSIS RESULT -->
+
+        <div class="panel analysis-result">
+
+            <div class="panel-header">
+
+                <div>
+                    <h3>AI Analysis</h3>
+                    <p>Human-readable threat explanation</p>
+                </div>
+
+                <span id="analysisStatus" class="status waiting">
+                    Waiting
+                </span>
+
+            </div>
+
+
+            <div id="resultContent" class="result-content">
+
+                <div class="empty-result">
+
+                    <div class="empty-icon">
+                        🤖
+                    </div>
+
+                    <h3>Ready to Analyze</h3>
+
+                    <p>
+                        Enter a security alert and click
+                        <strong>Analyze Alert</strong>.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ML MODELS ================= -->
+
+<section id="models" class="page-section">
+
+    <div class="section-heading">
+
+        <span class="badge">MACHINE LEARNING</span>
+
+        <h2>Machine Learning Models</h2>
+
+        <p>
+            Different algorithms can be used to classify security alerts.
+        </p>
+
+    </div>
+
+
+    <div class="model-grid">
+
+
+        <div class="model-card">
+
+            <div class="model-icon">
+                🌲
+            </div>
+
+            <h3>Random Forest</h3>
+
+            <span class="recommended">
+                RECOMMENDED
+            </span>
+
+            <p>
+                Uses multiple decision trees to classify security
+                alerts accurately.
+            </p>
+
+            <div class="model-score">
+                <span>Accuracy</span>
+                <strong>94.8%</strong>
+            </div>
+
+        </div>
+
+
+        <div class="model-card">
+
+            <div class="model-icon">
+                📈
+            </div>
+
+            <h3>Logistic Regression</h3>
+
+            <p>
+                Predicts the probability that an alert belongs
+                to a specific threat category.
+            </p>
+
+            <div class="model-score">
+                <span>Accuracy</span>
+                <strong>89.4%</strong>
+            </div>
+
+        </div>
+
+
+        <div class="model-card">
+
+            <div class="model-icon">
+                🧠
+            </div>
+
+            <h3>Decision Tree</h3>
+
+            <p>
+                Makes classification decisions using a
+                tree-like structure.
+            </p>
+
+            <div class="model-score">
+                <span>Accuracy</span>
+                <strong>91.2%</strong>
+            </div>
+
+        </div>
+
+
+        <div class="model-card">
+
+            <div class="model-icon">
+                ⚡
+            </div>
+
+            <h3>K-Nearest Neighbors</h3>
+
+            <p>
+                Classifies new alerts based on similar
+                previously observed alerts.
+            </p>
+
+            <div class="model-score">
+                <span>Accuracy</span>
+                <strong>87.6%</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- MODEL COMPARISON -->
+
+    <div class="panel comparison-panel">
+
+        <div class="panel-header">
+
+            <div>
+                <h3>Model Comparison</h3>
+                <p>Performance comparison of algorithms</p>
+            </div>
+
+        </div>
+
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Model</th>
+                    <th>Accuracy</th>
+                    <th>Precision</th>
+                    <th>Recall</th>
+                    <th>F1 Score</th>
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                <tr>
+                    <td>Random Forest</td>
+                    <td>94.8%</td>
+                    <td>93.7%</td>
+                    <td>92.9%</td>
+                    <td>93.3%</td>
+                </tr>
+
+                <tr>
+                    <td>Decision Tree</td>
+                    <td>91.2%</td>
+                    <td>89.8%</td>
+                    <td>90.1%</td>
+                    <td>89.9%</td>
+                </tr>
+
+                <tr>
+                    <td>Logistic Regression</td>
+                    <td>89.4%</td>
+                    <td>87.9%</td>
+                    <td>88.6%</td>
+                    <td>88.2%</td>
+                </tr>
+
+                <tr>
+                    <td>KNN</td>
+                    <td>87.6%</td>
+                    <td>85.7%</td>
+                    <td>86.3%</td>
+                    <td>86.0%</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+
+<!-- ================= AI INSIGHTS ================= -->
+
+<section id="insights" class="page-section">
+
+    <div class="section-heading">
+
+        <span class="badge">AI EXPLANATION</span>
+
+        <h2>AI Security Insights</h2>
+
+        <p>
+            Understand what the AI detected and why it matters.
+        </p>
+
+    </div>
+
+
+    <div class="insight-grid">
+
+
+        <div class="insight-card">
+
+            <div class="insight-icon">
+                🔴
+            </div>
+
+            <h3>Threat Detected</h3>
+
+            <p>
+                The system can identify suspicious patterns
+                that may indicate an active cyber attack.
+            </p>
+
+        </div>
+
+
+        <div class="insight-card">
+
+            <div class="insight-icon">
+                🎯
+            </div>
+
+            <h3>Threat Classification</h3>
+
+            <p>
+                Alerts are classified into categories such as
+                malware, brute force, port scanning and normal activity.
+            </p>
+
+        </div>
+
+
+        <div class="insight-card">
+
+            <div class="insight-icon">
+                🧩
+            </div>
+
+            <h3>Pattern Recognition</h3>
+
+            <p>
+                Machine learning identifies patterns in historical
+                security data to recognize new alerts.
+            </p>
+
+        </div>
+
+
+        <div class="insight-card">
+
+            <div class="insight-icon">
+                💬
+            </div>
+
+            <h3>Human Explanation</h3>
+
+            <p>
+                Instead of showing only technical log information,
+                SentinelAI explains the alert in simple language.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONCEPT ================= -->
+
+<section id="concept" class="page-section">
+
+    <div class="section-heading">
+
+        <span class="badge">PROJECT CONCEPT</span>
+
+        <h2>What is SentinelAI?</h2>
+
+        <p>
+            An AI-assisted security alert analysis system.
+        </p>
+
+    </div>
+
+
+    <div class="concept-container">
+
+        <div class="concept-text">
+
+            <h3>The Problem</h3>
+
+            <p>
+                Modern organizations generate thousands of security
+                alerts every day. Security analysts must manually
+                inspect these alerts to determine whether they
+                represent real threats.
+            </p>
+
+            <p>
+                This can be time-consuming and may result in important
+                threats being missed.
+            </p>
+
+
+            <h3>The Solution</h3>
+
+            <p>
+                SentinelAI uses machine learning to analyze security
+                alerts, classify their severity and provide an
+                easy-to-understand explanation.
+            </p>
+
+        </div>
+
+
+        <div class="concept-visual">
+
+            <div class="concept-step">
+                <span>01</span>
+                <strong>Security Alert</strong>
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <div class="concept-step">
+                <span>02</span>
+                <strong>ML Analysis</strong>
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <div class="concept-step">
+                <span>03</span>
+                <strong>Threat Classification</strong>
+            </div>
+
+            <div class="arrow">↓</div>
+
+            <div class="concept-step">
+                <span>04</span>
+                <strong>Human Explanation</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= HOW IT WORKS ================= -->
+
+<section id="how-it-works" class="page-section">
+
+    <div class="section-heading">
+
+        <span class="badge">WORKFLOW</span>
+
+        <h2>How It Works</h2>
+
+        <p>
+            From raw security alert to human-readable insight.
+        </p>
+
+    </div>
+
+
+    <div class="workflow">
+
+
+        <div class="workflow-step">
+
+            <div class="workflow-number">
+                1
+            </div>
+
+            <div class="workflow-content">
+
+                <h3>Collect Alert</h3>
+
+                <p>
+                    Security logs and alerts are collected from
+                    systems, networks and applications.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="workflow-line"></div>
+
+
+        <div class="workflow-step">
+
+            <div class="workflow-number">
+                2
+            </div>
+
+            <div class="workflow-content">
+
+                <h3>Preprocess Data</h3>
+
+                <p>
+                    Important features are extracted from the
+                    raw security alert.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="workflow-line"></div>
+
+
+        <div class="workflow-step">
+
+            <div class="workflow-number">
+                3
+            </div>
+
+            <div class="workflow-content">
+
+                <h3>Machine Learning</h3>
+
+                <p>
+                    The trained ML model analyzes the alert
+                    and predicts its category.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="workflow-line"></div>
+
+
+        <div class="workflow-step">
+
+            <div class="workflow-number">
+                4
+            </div>
+
+            <div class="workflow-content">
+
+                <h3>Threat Classification</h3>
+
+                <p>
+                    The alert is classified as Critical,
+                    High, Medium or Low.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="workflow-line"></div>
+
+
+        <div class="workflow-step">
+
+            <div class="workflow-number">
+                5
+            </div>
+
+            <div class="workflow-content">
+
+                <h3>AI Explanation</h3>
+
+                <p>
+                    The system converts technical information
+                    into a simple human-readable explanation.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECT DETAILS ================= -->
+
+<section id="project" class="page-section">
+
+    <div class="section-heading">
+
+        <span class="badge">CIA III MICRO PROJECT</span>
+
+        <h2>Project Details</h2>
+
+        <p>
+            Machine Learning based Security Alert Classification.
+        </p>
+
+    </div>
+
+
+    <div class="project-info-grid">
+
+
+        <div class="info-card">
+
+            <span>Project Title</span>
+
+            <h3>
+                AI That Reads Security Alerts Like a Human
+            </h3>
+
+        </div>
+
+
+        <div class="info-card">
+
+            <span>Technology</span>
+
+            <h3>
+                HTML • CSS • JavaScript • Python • Machine Learning
+            </h3>
+
+        </div>
+
+
+        <div class="info-card">
+
+            <span>Primary Algorithm</span>
+
+            <h3>
+                Random Forest
+            </h3>
+
+        </div>
+
+
+        <div class="info-card">
+
+            <span>Application Area</span>
+
+            <h3>
+                Cybersecurity
+            </h3>
+
+        </div>
+
+    </div>
+
+
+    <div class="team-section">
+
+        <h3>Our Team</h3>
+
+        <div class="team-grid">
+
+            <div class="team-member">
+                <div class="member-avatar">S</div>
+                <h4>Srujani V</h4>
+                <span>Team Member</span>
+            </div>
+
+
+            <div class="team-member">
+                <div class="member-avatar">T</div>
+                <h4>Theertha J</h4>
+                <span>Team Member</span>
+            </div>
+
+
+            <div class="team-member">
+                <div class="member-avatar">A</div>
+                <h4>Atti Chandrakanth</h4>
+                <span>Team Member</span>
+            </div>
+
+
+            <div class="team-member">
+                <div class="member-avatar">M</div>
+                <h4>Prajan S S</h4>
+                <span>Team Member</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-logo">
+        🛡️ SentinelAI
+    </div>
+
+    <p>
+        AI-powered security alert analysis for smarter
+        and faster cybersecurity decisions.
+    </p>
+
+    <div class="footer-line"></div>
+
+    <p class="copyright">
+        © 2026 SentinelAI | CIA III Micro Project
+    </p>
+
+</footer>
+
+
+</main>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
